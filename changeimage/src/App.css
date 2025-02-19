@@ -1,0 +1,54 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.App{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+    position: absolute;
+    background-color: aliceblue;
+}
+.Navbar{
+    width: 100dvw;
+    height: 10dvh;
+    display: flex;
+    position: relative;
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+.nav-ul{
+    
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* place-items: center;   */
+}
+
+.Home ,.About ,.Menu{
+    height: 90vh;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
